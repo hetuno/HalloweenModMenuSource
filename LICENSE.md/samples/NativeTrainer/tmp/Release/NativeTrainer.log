@@ -1,0 +1,41 @@
+﻿Build started 06/11/2016 14:26:55.
+     1>Project "C:\Users\Crusader\Desktop\Folders\Halloween Mod Menu Source\samples\NativeTrainer\NativeTrainer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NativeTrainer_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"tmp\Release\\" /Fd"tmp\Release\vc120.pdb" /Gd /TP /errorReport:prompt script.cpp
+         script.cpp
+     1>script.cpp(765): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>script.cpp(1056): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>script.cpp(1196): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>script.cpp(1197): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>script.cpp(1289): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>script.cpp(1478): warning C4551: function call missing argument list
+     1>script.cpp(1490): warning C4551: function call missing argument list
+     1>script.cpp(7411): warning C4065: switch statement contains 'default' but no 'case' labels
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Release\NativeTrainer.asi" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\Release\NativeTrainer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Release\NativeTrainer.lib" /MACHINE:X64 ..\..\lib\ScriptHookV.lib /DLL tmp\Release\keyboard.obj
+         tmp\Release\main.obj
+         tmp\Release\script.obj
+         Generating code
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(6540): warning C4715: 'process_text_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(6311): warning C4715: 'process_paint_menu_prim' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(6091): warning C4715: 'process_paint_menu_Smoke' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(5898): warning C4715: 'process_paint_menu_Prim_Matte' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(5368): warning C4715: 'process_veh_menu_cust' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(4218): warning C4715: 'process_add_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(3986): warning C4715: 'process_take_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(2649): warning C4715: 'process_animal_menu1' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(2287): warning C4715: 'process_clothing_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(6406): warning C4715: 'process_paint_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(4322): warning C4715: 'process_money_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(3200): warning C4715: 'process_animal_menu' : not all control paths return a value
+     1>c:\users\crusader\desktop\folders\halloween mod menu source\samples\nativetrainer\script.cpp(3756): warning C4715: 'process_model_menu' : not all control paths return a value
+         Finished generating code
+         NativeTrainer.vcxproj -> C:\Users\Crusader\Desktop\Folders\Halloween Mod Menu Source\samples\NativeTrainer\bin\Release\NativeTrainer.asi
+     1>Done Building Project "C:\Users\Crusader\Desktop\Folders\Halloween Mod Menu Source\samples\NativeTrainer\NativeTrainer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41
