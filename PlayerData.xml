@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-   2: <bookstore>
+   2: <Whitelist>
    3:   <!--记录书本的信息-->
-   4:   <book Type="必修课" ISBN="7-111-19149-2">
-   5:     <title>数据结构</title>
-   6:     <author>严蔚敏</author>
-   7:     <price>30.00</price>
-   8:   </book>
-  34: </bookstore>
+   4:   <Userlist ID="1"></Userlist>
+  34: </Whitelist>
