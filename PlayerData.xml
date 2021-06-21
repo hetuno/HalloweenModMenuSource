@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
    2: <Whitelist>
    3:   <!--记录书本的信息-->
-   4:   <Userlist ID="1"></Userlist>
+   4:   <Userlist ID="true"></Userlist>
   34: </Whitelist>
